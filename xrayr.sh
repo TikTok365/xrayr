@@ -108,7 +108,7 @@ install_XrayR() {
     mkdir /usr/local/XrayR/ -p
 	cd /usr/local/XrayR/
 
-  
+   
         if [[ $1 == v* ]]; then
             last_version=$1
 	else
